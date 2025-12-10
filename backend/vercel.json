@@ -1,0 +1,11 @@
+{
+  "build": {
+    "builder": "@vercel/node"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
