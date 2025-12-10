@@ -1,0 +1,14 @@
+{
+  "name": "ryd-planner",
+  "version": "1.0.0",
+  "description": "RYD Mission Planner - Full Stack App",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd fronted && npm run dev"
+  },
+  "keywords": ["mission", "planner", "dispatch"],
+  "author": "",
+  "license": "ISC"
+}
